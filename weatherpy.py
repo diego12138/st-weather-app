@@ -3,12 +3,11 @@ import requests
 import datetime
 import folium # type: ignore
 from streamlit_folium import st_folium # type: ignore
-from config import api_key # type: ignore
-
+import os
 st.title('Weather App')
 
 
-
+api_key = os.getenv('API_KEY')
 city = st.text_input('Enter city:')
 
 if city:
