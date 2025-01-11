@@ -18,4 +18,4 @@ Simple Weather App made with Streamlit & SimpleWeatherMap
 This app uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data.
 
 ## Demo
-[WeatherApp](https://st-weather-app-ocpq)
+[WeatherApp](https://st-weather-app-ocpqtsp4ifg56vjtwmxzra.streamlit.app/)
