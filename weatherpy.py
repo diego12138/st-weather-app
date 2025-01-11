@@ -1,9 +1,9 @@
 import streamlit as st
 import requests
 import datetime
-import folium
-from streamlit_folium import st_folium
-from config import api_key
+import folium # type: ignore
+from streamlit_folium import st_folium # type: ignore
+from config import api_key # type: ignore
 
 st.title('Weather App')
 
